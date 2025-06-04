@@ -1,0 +1,5 @@
+Spain	2283157
+United Kingdom	1985592
+France	1707533
+Germany	1660443
+Italy	1332148
