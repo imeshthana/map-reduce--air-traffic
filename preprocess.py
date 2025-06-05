@@ -6,7 +6,7 @@ output_file = "flights_by_country_2024.csv"
 
 country_flights = defaultdict(int)
 
-# Try reading file with common delimiters
+# Reading file with common delimiters
 with open(input_file, 'r', encoding='utf-8') as file:
     sample = file.read(2048)
     delimiter = ',' if ',' in sample else '\t'

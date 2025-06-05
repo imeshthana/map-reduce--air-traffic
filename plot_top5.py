@@ -10,7 +10,7 @@ with open("top5countries.txt", "r") as file:
         countries.append(country)
         flights.append(int(total))
 
-# Plotting
+# Plotting top 5 Countries
 plt.figure(figsize=(10, 6))
 plt.bar(countries, flights, color='skyblue')
 plt.title('Top 5 Busiest Countries by Total Flights (2024)')

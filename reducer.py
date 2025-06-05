@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+
 import sys
 from collections import defaultdict
 
@@ -15,7 +15,7 @@ for line in sys.stdin:
         continue
     country_flights[country] += flights
 
-# Sort and get top 5
+# Get top 5 countries
 top_5 = sorted(country_flights.items(), key=lambda x: x[1], reverse=True)[:5]
 
 for country, total in top_5:
