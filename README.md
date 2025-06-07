@@ -11,7 +11,7 @@ Use Hadoop MapReduce (Python Streaming) to analyze European air traffic data and
 - `top5countries.txt`: Output result from MapReduce
 
 ##  How to Run (Brief)
-1. Put CSV into HDFS:
+1.Put CSV into HDFS:
 ```bash
 hdfs dfs -mkdir -p /user/hdoop/input
 hdfs dfs -put flights_by_country_2024.csv /user/hdoop/input/
